@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
+  option = {
+    slidesPerView: 1.5,
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 10,
+  };
 
 }
